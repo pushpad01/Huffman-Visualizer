@@ -159,7 +159,7 @@ function update_huffman_graph(encoded_tree){
 		
 		// Visualize
 		visualize(encoded_tree, ($("#huffman_graph").hasClass("fullscreen")) ? true : false);
-		
+
 		
 		// Animate tree building
 		$("#huffman_graph-canvaswidget").fadeTo(0, 0);
