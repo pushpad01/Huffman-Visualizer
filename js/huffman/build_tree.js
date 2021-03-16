@@ -2,7 +2,7 @@
 // and encodes it using the Huffman algorithm,
 // as well as into a form that can be passed to the visualizer.
 function build_tree(data){
-	// Encode using te Huffman algorithm
+	// Encode using the Huffman algorithm
 	var node_count = data.length;
 	
 	var queue = new PriorityQueue({ comparator: function(a, b) { return a.frequency - b.frequency; }});
